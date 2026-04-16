@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="brand-block">
+          <h1 class="site-title">Your Name</h1>
+          <p class="site-subtitle">
+            A quiet portfolio for selected work, notes, and projects.
+          </p>
+        </div>
+
+        <nav class="side-nav">
+          <a href="index.html#intro">Intro</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#work">Work</a>
+          <a href="books.html">Books</a>
+          <a href="photos.html">Photos</a>
+          <a href="index.html#writing">Writing</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="sidebar-footer">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+            Light
+          </button>
+
+          <div class="small-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Mail</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="page-heading">
+        <div class="section-label">Gallery</div>
+        <div class="section-body">
+          <h2>Photos</h2>
+          <p>
+            A small visual archive. Images work best here when they are quiet, textured,
+            and consistent in mood.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-label">Selected</div>
+        <div class="section-body">
+          <div class="photo-grid">
+            <figure class="photo-card tall">
+              <img src="images/photo1.jpg" alt="Atmospheric landscape" />
+              <figcaption>Winter light</figcaption>
+            </figure>
+
+            <figure class="photo-card">
+              <img src="images/photo2.jpg" alt="Architectural detail" />
+              <figcaption>Concrete and shadow</figcaption>
+            </figure>
+
+            <figure class="photo-card">
+              <img src="images/photo3.jpg" alt="Quiet street scene" />
+              <figcaption>Evening street</figcaption>
+            </figure>
+
+            <figure class="photo-card wide">
+              <img src="images/photo4.jpg" alt="Mountain or sea horizon" />
+              <figcaption>Distant line</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-label">Note</div>
+        <div class="section-body">
+          <p>
+            This page is better when it stays curated. Fewer images usually look stronger than many.
+            Think sequence, atmosphere, and rhythm rather than dumping a camera roll.
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
