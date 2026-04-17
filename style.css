@@ -96,6 +96,14 @@ nav a.active::after {
   background: var(--accent);
 }
 
+nav a.active {
+  font-weight: 600;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
 .page-hero {
   padding: 5rem 0 2.5rem;
 }
