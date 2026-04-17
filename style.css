@@ -109,7 +109,11 @@ nav a:hover {
 .page-hero {
   padding: 5rem 0 2.5rem;
 }
-
+.hero-image img {
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.08em;
