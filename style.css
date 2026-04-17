@@ -306,7 +306,21 @@ h3 {
 .cv-photo img {
   width: 120px;
   height: 120px;
+
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ddd;
+}
+
+.card {
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.button:active {
+  transform: scale(0.97);
 }
