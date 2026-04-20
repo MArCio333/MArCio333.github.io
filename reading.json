@@ -12,15 +12,73 @@
       "author": "Ernesto Guevara de la Serna",
       "summary": "Fun and unexpected read."
     },
+    [
+  {
+    "date": "2026-01-01",
+    "tag": "Memoir",
+    "title": "Diario de motocicleta",
+    "author": "Ernesto Guevara de la Serna",
+    "summary": "Funny, surprising, and much more enjoyable than expected."
+  },
+  {
+    "date": "2026-01-02",
+    "tag": "Essay",
+    "title": "El laberinto de la soledad",
+    "author": "Octavio Paz",
+    "summary": "Deeply thoughtful, clear, and remarkably concise while still covering an enormous amount."
+  },
+  {
+    "date": "2026-01-03",
+    "tag": "Novel",
+    "title": "A City Dreaming",
+    "author": "Daniel Polansky",
+    "summary": "One of the funniest books I have read in years. Uneven in a few chapters, but overall a brilliant and inventive take on the wizard-in-New-York trope."
+  },
+  {
+    "date": "2026-01-04",
+    "tag": "Essay",
+    "title": "Gli italiani",
+    "author": "Luigi Barzini",
+    "summary": "Excellent in parts, especially on theatricality, institutional weakness, and the adaptive fluidity of Italian society. Clearly written for foreigners and for a very specific period."
+  },
+  {
+    "date": "2026-01-05",
+    "tag": "Novel",
+    "title": "El complot mongol",
+    "author": "Rafael Bernal",
+    "summary": "Begins almost absurdly, then turns sharp and unexpectedly profound. Strong character work in a short space, with surprising depth and momentum."
+  },
+  {
+    "date": "2026-01-06",
+    "tag": "Novel",
+    "title": "Aura",
+    "author": "Carlos Fuentes",
+    "summary": "Striking atmosphere and style, though it did not fully land for me."
+  },
+  {
+    "date": "2026-02-01",
+    "tag": "Novel",
+    "title": "El señor presidente",
+    "author": "Miguel Ángel Asturias",
+    "summary": "Devastating and emotionally overwhelming. A vivid portrayal of dictatorship, moral collapse, and human hardship, with language that powerfully mirrors the brutality of the world it depicts."
+  },
+  {
+    "date": "2026-02-02",
+    "tag": "Short Stories",
+    "title": "Confabulario",
+    "author": "Juan José Arreola",
+    "summary": "A mixed collection for me: some stories are exceptional, while others felt heavy and less convincing."
+  }
+]
     {
-      "date": "2026-01-02",
+      "date": "2025-12-02",
       "tag": "Novel",
       "title": "Pedro Paramo",
       "author": "Juan Rulfo",
       "summary": "Mexico most emblematic book. Brings to an extreme the combination of simplicity and complexity while showing the soul of a nation."
     },
     {
-      "date": "2026-01-03",
+      "date": "2025-12-03",
       "tag": "Novel",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
