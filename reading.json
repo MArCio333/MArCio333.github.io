@@ -6,39 +6,53 @@
   },
   "books": [
     {
-      "date": "2026-04-10",
-      "tag": "Group Dynamics",
-      "title": "Group Processes: Dynamics Within and Between Groups",
-      "author": "Rupert Brown & Sam Pehrson",
-      "summary": "A strong framework for understanding polarization as a group process rather than just an individual-level disagreement."
+      "date": "2026-01-10",
+      "tag": "Memoir",
+      "title": "Diaries of a Motorcycle",
+      "author": "Ernesto Guevara de la Serna",
+      "summary": "Fun and unexpected read."
     },
     {
-      "date": "2026-04-05",
-      "tag": "Methods",
-      "title": "Twenty-Five Years of Research Using Implicit Measures",
-      "author": "Bertram Gawronski, Jan De Houwer & Jeffrey Sherman",
-      "summary": "Made me more careful about what implicit measures can actually tell us, and where interpretation becomes too ambitious."
+      "date": "2026-01-10",
+      "tag": "Novel",
+      "title": "Pedro Paramo",
+      "author": "Juan Rulfo",
+      "summary": "Mexico most emblematic book. Brings to an extreme the combination of simplicity and complexity while showing the soul of a nation."
     },
     {
-      "date": "2026-03-15",
-      "tag": "Religion",
-      "title": "The Anthropology of Religion",
-      "author": "James Bielo",
-      "summary": "Helped shift my perspective from religion as belief alone to religion as practice, embodiment, and lived experience."
+      "date": "2026-01-10",
+      "tag": "Novel",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "summary": "Arguably the best novel ever written."
     },
     {
-      "date": "2026-03-08",
-      "tag": "Psychology",
-      "title": "The Psychology of Influence",
-      "author": "Van der Pligt & Vliek",
-      "summary": "Useful for thinking about how persuasion works through emotion and identity, not only through explicit argument."
+      "date": "2025-11-05",
+      "tag": "Novel",
+      "title": "The Story of a Shipwrecked Sailor",
+      "author": "Gabriel García Márquez",
+      "summary": "Good entry to the work of Gabo. Can be dry at times but it does show his journalistic roots"
+    },
+    {
+      "date": "2025-11-15",
+      "tag": "Memoir",
+      "title": "Kitchen Confidential",
+      "author": "Anthony Bourdain",
+      "summary": "As a former cook, the raw and colourful representation of such a world depicted by Bourdain remains probably, if not the most realistic, the most consequential."
+    },
+    {
+      "date": "2025-11-08",
+      "tag": "Sci-Fi",
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "summary": "Understandably a fundational novel of modern CyberPunk. The lingo hits hard at times"
     },
     {
       "date": "2025-10-15",
-      "tag": "Politics",
+      "tag": "Feminism",
       "title": "Men Explain Things to Me",
       "author": "Dan Wang",
-      "summary": "Fresh change of perspective from liberal/authoritarian to lawyer/engineer societies. Uniquely balanced analysis of the current geopolitical situation. As a European, the concept of Europe as mausoleum economies felt reductive and too eager to push a bidimensional view of world order."
+      "summary": "Amazing beginning with catchy first chapters. Moving towards moralizing/academic at the end"
     },
     {
       "date": "2025-10-10",
