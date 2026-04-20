@@ -928,3 +928,80 @@ h3 {
     width: calc(100% - 2rem);
   }
 }
+
+.timeline-row {
+  display: flex;
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+.timeline-row.left {
+  justify-content: flex-start;
+}
+
+.timeline-row.right {
+  justify-content: flex-end;
+}
+
+.timeline-card {
+  max-width: 430px;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.timeline-card h3,
+.timeline-card .timeline-tag,
+.timeline-card .timeline-author,
+.timeline-card .timeline-summary {
+  text-align: left;
+}
+
+.timeline-card.month-january {
+  background: #f6efe7;
+}
+
+.timeline-card.month-february {
+  background: #f3eee8;
+}
+
+.timeline-card.month-march {
+  background: #eef3ec;
+}
+
+.timeline-card.month-april {
+  background: #f4f0f7;
+}
+
+.timeline-card.month-may {
+  background: #f9f1e8;
+}
+
+.timeline-card.month-june {
+  background: #edf4f6;
+}
+
+.timeline-card.month-july {
+  background: #f8efe3;
+}
+
+.timeline-card.month-august {
+  background: #f3f1df;
+}
+
+.timeline-card.month-september {
+  background: #ecefe6;
+}
+
+.timeline-card.month-october {
+  background: #f5ebe8;
+}
+
+.timeline-card.month-november {
+  background: #f1ece8;
+}
+
+.timeline-card.month-december {
+  background: #eef1f7;
+}
