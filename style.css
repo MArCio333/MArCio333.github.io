@@ -828,11 +828,11 @@ h3 {
 }
 
 .timeline-card h3 {
-  font-size: 1.55rem;
+  font-size: 2.55rem;
   line-height: 1.04;
   letter-spacing: -0.02em;
   margin: 0 0 0.45rem;
-  max-width: 13ch;
+  max-width: 20ch;
 }
 
 .timeline-author {
