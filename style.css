@@ -720,7 +720,6 @@ h3 {
   border-color: #dfc9c3;
   color: var(--accent);
 }
-
 .reading-timeline-alt {
   position: relative;
   display: flex;
@@ -746,7 +745,7 @@ h3 {
   text-align: center;
   position: relative;
   z-index: 2;
-  margin: 0.35rem 0 0.35rem;
+  margin: 0.35rem 0;
 }
 
 .timeline-month-center span {
@@ -796,13 +795,14 @@ h3 {
 }
 
 .timeline-card {
-  width: min(500%, 900px);
+  width: min(100%, 440px);
   min-height: 200px;
   border: 1px solid rgba(106, 58, 58, 0.18);
   border-radius: 22px;
   padding: 1.35rem 1.35rem 1.45rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.035);
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  text-align: left;
 }
 
 .timeline-card:hover {
@@ -811,16 +811,11 @@ h3 {
   border-color: rgba(106, 58, 58, 0.34);
 }
 
-.month-april {
-  background: linear-gradient(to bottom, #f6eeeb 0%, #fcfaf7 28%);
-}
-
-.month-march {
-  background: linear-gradient(to bottom, #f0f3ee 0%, #fcfaf7 28%);
-}
-
-.month-february {
-  background: linear-gradient(to bottom, #f4f0e7 0%, #fcfaf7 28%);
+.timeline-tag,
+.timeline-card h3,
+.timeline-author,
+.timeline-summary {
+  text-align: left;
 }
 
 .timeline-tag {
@@ -848,25 +843,59 @@ h3 {
 }
 
 .timeline-summary {
-  margin: 0 0 1.15rem;
+  margin: 0;
   font-size: 1.03rem;
   line-height: 1.75;
   color: #2d2a25;
 }
 
-.timeline-points {
-  margin: 0;
-  padding-left: 1.15rem;
-  color: #37332d;
+/* Month backgrounds */
+.timeline-card.month-january {
+  background: linear-gradient(to bottom, #f5efe7 0%, #fcfaf7 28%);
 }
 
-.timeline-points li {
-  font-size: 0.98rem;
-  line-height: 1.72;
+.timeline-card.month-february {
+  background: linear-gradient(to bottom, #f4f0e7 0%, #fcfaf7 28%);
 }
 
-.timeline-points li + li {
-  margin-top: 0.55rem;
+.timeline-card.month-march {
+  background: linear-gradient(to bottom, #f0f3ee 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-april {
+  background: linear-gradient(to bottom, #f6eeeb 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-may {
+  background: linear-gradient(to bottom, #f7f1e8 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-june {
+  background: linear-gradient(to bottom, #edf3f5 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-july {
+  background: linear-gradient(to bottom, #f8efe5 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-august {
+  background: linear-gradient(to bottom, #f3f0e2 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-september {
+  background: linear-gradient(to bottom, #edf0e8 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-october {
+  background: linear-gradient(to bottom, #f3e9e6 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-november {
+  background: linear-gradient(to bottom, #f1ebe7 0%, #fcfaf7 28%);
+}
+
+.timeline-card.month-december {
+  background: linear-gradient(to bottom, #edf0f6 0%, #fcfaf7 28%);
 }
 
 @media (max-width: 980px) {
@@ -927,81 +956,4 @@ h3 {
   .timeline-row.right .timeline-card {
     width: calc(100% - 2rem);
   }
-}
-
-.timeline-row {
-  display: flex;
-  width: 100%;
-  margin: 2.5rem 0;
-}
-
-.timeline-row.left {
-  justify-content: flex-start;
-}
-
-.timeline-row.right {
-  justify-content: flex-end;
-}
-
-.timeline-card {
-  max-width: 430px;
-  width: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  text-align: left;
-}
-
-.timeline-card h3,
-.timeline-card .timeline-tag,
-.timeline-card .timeline-author,
-.timeline-card .timeline-summary {
-  text-align: left;
-}
-
-.timeline-card.month-january {
-  background: #f6efe7;
-}
-
-.timeline-card.month-february {
-  background: #f3eee8;
-}
-
-.timeline-card.month-march {
-  background: #eef3ec;
-}
-
-.timeline-card.month-april {
-  background: #f4f0f7;
-}
-
-.timeline-card.month-may {
-  background: #f9f1e8;
-}
-
-.timeline-card.month-june {
-  background: #edf4f6;
-}
-
-.timeline-card.month-july {
-  background: #f8efe3;
-}
-
-.timeline-card.month-august {
-  background: #f3f1df;
-}
-
-.timeline-card.month-september {
-  background: #ecefe6;
-}
-
-.timeline-card.month-october {
-  background: #f5ebe8;
-}
-
-.timeline-card.month-november {
-  background: #f1ece8;
-}
-
-.timeline-card.month-december {
-  background: #eef1f7;
 }
