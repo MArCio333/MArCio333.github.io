@@ -34,154 +34,36 @@
       </p>
     </section>
 
-
-
-        <div class="highlight-box current-reading-box">
-          <p class="card-type">Currently reading</p>
-          <h3>Political Order and Political Decay</h3>
-          <p>
-            I am currently reading on institutions, state capacity, and long-term political development.
-          </p>
-        </div>
+    <section class="container reading-section">
+      <div class="highlight-box current-reading-box" id="current-reading-box">
+        <p class="card-type">Currently reading</p>
+        <h3 id="current-reading-title">Loading...</h3>
+        <p id="current-reading-description">
+          Please wait while the current reading entry loads.
+        </p>
       </div>
 
       <div class="reading-meta-grid">
         <article class="meta-card">
           <p class="card-type">Books logged</p>
-          <h3>6</h3>
+          <h3 id="books-logged">0</h3>
         </article>
         <article class="meta-card">
           <p class="card-type">Current theme</p>
-          <h3>Polarization</h3>
+          <h3 id="current-theme">-</h3>
         </article>
         <article class="meta-card">
           <p class="card-type">Last updated</p>
-          <h3>April 2026</h3>
+          <h3 id="last-updated">-</h3>
         </article>
       </div>
 
-      <div class="reading-filters">
-        <span class="filter-pill active">All</span>
-        <span class="filter-pill">Politics</span>
-        <span class="filter-pill">Psychology</span>
-        <span class="filter-pill">Religion</span>
-        <span class="filter-pill">Policy</span>
+      <div class="reading-filters" id="reading-filters">
+        <span class="filter-pill active" data-filter="All">All</span>
       </div>
 
-      <div class="reading-timeline-alt">
-
-        <div class="timeline-month-center">
-          <span>April 2026</span>
-        </div>
-
-        <div class="timeline-row left">
-          <article class="timeline-card month-april">
-            <p class="timeline-tag">Group Dynamics</p>
-            <h3>Group Processes: Dynamics Within and Between Groups</h3>
-            <p class="timeline-author">Rupert Brown &amp; Sam Pehrson</p>
-            <p class="timeline-summary">
-              A strong framework for understanding polarization as a group process rather than
-              just an individual-level disagreement.
-            </p>
-
-          </article>
-        </div>
-
-        <div class="timeline-row right">
-          <article class="timeline-card month-april">
-            <p class="timeline-tag">Methods</p>
-            <h3>Twenty-Five Years of Research Using Implicit Measures</h3>
-            <p class="timeline-author">Bertram Gawronski, Jan De Houwer &amp; Jeffrey Sherman</p>
-            <p class="timeline-summary">
-              Made me more careful about what implicit measures can actually tell us, and where
-              interpretation becomes too ambitious.
-            </p>
-
-          </article>
-        </div>
-
-        <div class="timeline-month-center">
-          <span>March 2026</span>
-        </div>
-
-        <div class="timeline-row left">
-          <article class="timeline-card month-march">
-            <p class="timeline-tag">Religion</p>
-            <h3>The Anthropology of Religion</h3>
-            <p class="timeline-author">James Bielo</p>
-            <p class="timeline-summary">
-              Helped shift my perspective from religion as belief alone to religion as practice,
-              embodiment, and lived experience.
-            </p>
-  
-          </article>
-        </div>
-
-        <div class="timeline-row right">
-          <article class="timeline-card month-march">
-            <p class="timeline-tag">Psychology</p>
-            <h3>The Psychology of Influence</h3>
-            <p class="timeline-author">Van der Pligt &amp; Vliek</p>
-            <p class="timeline-summary">
-              Useful for thinking about how persuasion works through emotion and identity, not
-              only through explicit argument.
-            </p>
-
-          </article>
-        </div>
-
-        <div class="timeline-month-center">
-          <div class="timeline-month-center">
-            <span>October 2025</span>
-          </div>
-          
-          <div class="timeline-row left">
-            <article class="timeline-card month-february">
-              <p class="timeline-tag">Politics</p>
-              <h3>Men Explain Things to Me</h3>
-              <p class="timeline-author">Dan Wang</p>
-              <p class="timeline-summary">
-                Fresh change of perspective from liberal/authoritarian to lawyer/engineer societies. Uniquely balanced analysis of the current geopolitical situation.
-                As a European, the concept of Europe as mausoleum economies felt reductive and too eager to push a bidimensional view of world order.
-              </p>
-            </article>
-          </div>
-          
-          <div class="timeline-row right">
-            <article class="timeline-card month-february">
-              <p class="timeline-tag">Politics</p>
-              <h3>Breakneck: China's Quest to Engineer the Future</h3>
-              <p class="timeline-author">Dan Wang</p>
-              <p class="timeline-summary">
-                Fresh change of perspective from liberal/authoritarian to lawyer/engineer societies. Uniquely balanced analysis of the current geopolitical situation.
-                As a European, the concept of Europe as mausoleum economies felt reductive and too eager to push a bidimensional view of world order.
-              </p>
-            </article>
-          </div>
-
-        <div class="timeline-row left">
-          <article class="timeline-card month-february">
-            <p class="timeline-tag">History</p>
-            <h3>Revolusi: Indonesia and the Birth of the Modern World</h3>
-            <p class="timeline-author">	David Van Reybrouck</p>
-            <p class="timeline-summary">
-              Comprehensive description of Indonesia colonial past. The end can be quite heavy and excessively leaning towards a moralizing stance.
-            </p>
-
-          </article>
-        </div>
-
-        <div class="timeline-row right">
-          <article class="timeline-card month-february">
-            <p class="timeline-tag">Sci-Fi</p>
-            <h3>The Dispossessed</h3>
-            <p class="timeline-author">Ursula K. Le Guin</p>
-            <p class="timeline-summary">
-              Best Book of the year. Rarely a novel gives me so much to think about power, gender, economics and the crazyness of the world we live in.
-            </p>
-          </article>
-        </div>
-
+      <div class="reading-timeline-alt" id="reading-timeline-alt">
+        <!-- Timeline will be generated here -->
       </div>
     </section>
   </main>
@@ -189,8 +71,139 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>© 2026 Marco Baltieri</p>
-      <p>Built with HTML &amp; CSS</p>
+      <p>Built with HTML, CSS &amp; JSON</p>
     </div>
   </footer>
+
+  <script>
+    let allBooks = [];
+
+    function formatMonthYear(dateString) {
+      const date = new Date(dateString);
+      return date.toLocaleDateString("en-US", {
+        month: "long",
+        year: "numeric"
+      });
+    }
+
+    function slugify(text) {
+      return text.toLowerCase().replace(/\s+/g, "-");
+    }
+
+    function clearTimeline() {
+      const timeline = document.getElementById("reading-timeline-alt");
+      timeline.innerHTML = "";
+    }
+
+    function renderMeta(data) {
+      document.getElementById("books-logged").textContent = data.books.length;
+      document.getElementById("current-theme").textContent = data.currentTheme || "-";
+
+      if (data.books.length > 0) {
+        const sorted = [...data.books].sort((a, b) => new Date(b.date) - new Date(a.date));
+        document.getElementById("last-updated").textContent = formatMonthYear(sorted[0].date);
+      } else {
+        document.getElementById("last-updated").textContent = "-";
+      }
+
+      if (data.currentlyReading) {
+        document.getElementById("current-reading-title").textContent = data.currentlyReading.title;
+        document.getElementById("current-reading-description").textContent = data.currentlyReading.description;
+      }
+    }
+
+    function renderFilters(data) {
+      const filtersContainer = document.getElementById("reading-filters");
+      filtersContainer.innerHTML = '<span class="filter-pill active" data-filter="All">All</span>';
+
+      const uniqueTags = [...new Set(data.books.map(book => book.tag))];
+
+      uniqueTags.forEach(tag => {
+        const pill = document.createElement("span");
+        pill.className = "filter-pill";
+        pill.dataset.filter = tag;
+        pill.textContent = tag;
+        filtersContainer.appendChild(pill);
+      });
+
+      filtersContainer.addEventListener("click", function (e) {
+        if (!e.target.classList.contains("filter-pill")) return;
+
+        document.querySelectorAll(".filter-pill").forEach(pill => pill.classList.remove("active"));
+        e.target.classList.add("active");
+
+        const selectedFilter = e.target.dataset.filter;
+        if (selectedFilter === "All") {
+          renderTimeline(allBooks);
+        } else {
+          renderTimeline(allBooks.filter(book => book.tag === selectedFilter));
+        }
+      });
+    }
+
+    function renderTimeline(books) {
+      clearTimeline();
+      const timeline = document.getElementById("reading-timeline-alt");
+
+      if (books.length === 0) {
+        timeline.innerHTML = "<p>No entries found for this category.</p>";
+        return;
+      }
+
+      const sortedBooks = [...books].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      const grouped = {};
+      sortedBooks.forEach(book => {
+        const monthYear = formatMonthYear(book.date);
+        if (!grouped[monthYear]) grouped[monthYear] = [];
+        grouped[monthYear].push(book);
+      });
+
+      Object.keys(grouped).forEach(monthYear => {
+        const monthBlock = document.createElement("div");
+        monthBlock.className = "timeline-month-center";
+        monthBlock.innerHTML = `<span>${monthYear}</span>`;
+        timeline.appendChild(monthBlock);
+
+        grouped[monthYear].forEach((book, index) => {
+          const row = document.createElement("div");
+          row.className = `timeline-row ${index % 2 === 0 ? "left" : "right"}`;
+
+          row.innerHTML = `
+            <article class="timeline-card month-${slugify(monthYear.split(" ")[0])}">
+              <p class="timeline-tag">${book.tag}</p>
+              <h3>${book.title}</h3>
+              <p class="timeline-author">${book.author}</p>
+              <p class="timeline-summary">${book.summary}</p>
+            </article>
+          `;
+
+          timeline.appendChild(row);
+        });
+      });
+    }
+
+    async function loadReadingData() {
+      try {
+        const response = await fetch("reading.json");
+        if (!response.ok) {
+          throw new Error("Could not load reading.json");
+        }
+
+        const data = await response.json();
+        allBooks = data.books || [];
+
+        renderMeta(data);
+        renderFilters(data);
+        renderTimeline(allBooks);
+      } catch (error) {
+        console.error(error);
+        document.getElementById("reading-timeline-alt").innerHTML =
+          "<p>Could not load reading entries. Make sure reading.json exists and that you are running the site through a local server or hosting environment.</p>";
+      }
+    }
+
+    loadReadingData();
+  </script>
 </body>
 </html>
