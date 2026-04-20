@@ -6,13 +6,6 @@
   },
   "books": [
     {
-      "date": "2025-12-09",
-      "tag": "Memoir",
-      "title": "Diario de motocicleta",
-      "author": "Ernesto Guevara de la Serna",
-      "summary": "Funny, surprising, and much more enjoyable than expected."
-    },
-    {
       "date": "2026-01-02",
       "tag": "Essay",
       "title": "El laberinto de la soledad",
@@ -60,6 +53,13 @@
       "title": "Confabulario",
       "author": "Juan José Arreola",
       "summary": "A mixed collection for me: some stories are exceptional, while others felt heavy and less convincing."
+    },
+    {
+      "date": "2025-12-09",
+      "tag": "Memoir",
+      "title": "Diario de motocicleta",
+      "author": "Ernesto Guevara de la Serna",
+      "summary": "Funny, surprising, and much more enjoyable than expected."
     },
     {
       "date": "2025-12-02",
