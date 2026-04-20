@@ -86,8 +86,9 @@
       });
     }
 
-    function slugify(text) {
-      return text.toLowerCase().replace(/\s+/g, "-");
+    function getMonthName(dateString) {
+      const date = new Date(dateString);
+      return date.toLocaleDateString("en-US", { month: "long" }).toLowerCase();
     }
 
     function clearTimeline() {
@@ -159,18 +160,23 @@
         grouped[monthYear].push(book);
       });
 
+      let globalIndex = 0;
+
       Object.keys(grouped).forEach(monthYear => {
         const monthBlock = document.createElement("div");
         monthBlock.className = "timeline-month-center";
         monthBlock.innerHTML = `<span>${monthYear}</span>`;
         timeline.appendChild(monthBlock);
 
-        grouped[monthYear].forEach((book, index) => {
+        grouped[monthYear].forEach(book => {
+          const side = globalIndex % 2 === 0 ? "left" : "right";
+          const monthClass = `month-${getMonthName(book.date)}`;
+
           const row = document.createElement("div");
-          row.className = `timeline-row ${index % 2 === 0 ? "left" : "right"}`;
+          row.className = `timeline-row ${side}`;
 
           row.innerHTML = `
-            <article class="timeline-card month-${slugify(monthYear.split(" ")[0])}">
+            <article class="timeline-card ${monthClass} ${side}">
               <p class="timeline-tag">${book.tag}</p>
               <h3>${book.title}</h3>
               <p class="timeline-author">${book.author}</p>
@@ -179,13 +185,14 @@
           `;
 
           timeline.appendChild(row);
+          globalIndex++;
         });
       });
     }
 
     async function loadReadingData() {
       try {
-        const response = await fetch("reading.json");
+        const response = await fetch("./reading.json");
         if (!response.ok) {
           throw new Error("Could not load reading.json");
         }
@@ -199,7 +206,7 @@
       } catch (error) {
         console.error(error);
         document.getElementById("reading-timeline-alt").innerHTML =
-          "<p>Could not load reading entries. Make sure reading.json exists and that you are running the site through a local server or hosting environment.</p>";
+          "<p>Could not load reading entries. Make sure reading.json exists in the same folder as reading.html.</p>";
       }
     }
 
