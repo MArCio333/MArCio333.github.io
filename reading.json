@@ -1,0 +1,65 @@
+{
+  "currentTheme": "Polarization",
+  "currentlyReading": {
+    "title": "Political Order and Political Decay",
+    "description": "I am currently reading on institutions, state capacity, and long-term political development."
+  },
+  "books": [
+    {
+      "date": "2026-04-10",
+      "tag": "Group Dynamics",
+      "title": "Group Processes: Dynamics Within and Between Groups",
+      "author": "Rupert Brown & Sam Pehrson",
+      "summary": "A strong framework for understanding polarization as a group process rather than just an individual-level disagreement."
+    },
+    {
+      "date": "2026-04-05",
+      "tag": "Methods",
+      "title": "Twenty-Five Years of Research Using Implicit Measures",
+      "author": "Bertram Gawronski, Jan De Houwer & Jeffrey Sherman",
+      "summary": "Made me more careful about what implicit measures can actually tell us, and where interpretation becomes too ambitious."
+    },
+    {
+      "date": "2026-03-15",
+      "tag": "Religion",
+      "title": "The Anthropology of Religion",
+      "author": "James Bielo",
+      "summary": "Helped shift my perspective from religion as belief alone to religion as practice, embodiment, and lived experience."
+    },
+    {
+      "date": "2026-03-08",
+      "tag": "Psychology",
+      "title": "The Psychology of Influence",
+      "author": "Van der Pligt & Vliek",
+      "summary": "Useful for thinking about how persuasion works through emotion and identity, not only through explicit argument."
+    },
+    {
+      "date": "2025-10-15",
+      "tag": "Politics",
+      "title": "Men Explain Things to Me",
+      "author": "Dan Wang",
+      "summary": "Fresh change of perspective from liberal/authoritarian to lawyer/engineer societies. Uniquely balanced analysis of the current geopolitical situation. As a European, the concept of Europe as mausoleum economies felt reductive and too eager to push a bidimensional view of world order."
+    },
+    {
+      "date": "2025-10-10",
+      "tag": "Politics",
+      "title": "Breakneck: China's Quest to Engineer the Future",
+      "author": "Dan Wang",
+      "summary": "Fresh change of perspective from liberal/authoritarian to lawyer/engineer societies. Uniquely balanced analysis of the current geopolitical situation. As a European, the concept of Europe as mausoleum economies felt reductive and too eager to push a bidimensional view of world order."
+    },
+    {
+      "date": "2025-10-03",
+      "tag": "History",
+      "title": "Revolusi: Indonesia and the Birth of the Modern World",
+      "author": "David Van Reybrouck",
+      "summary": "Comprehensive description of Indonesia's colonial past. The end can be quite heavy and excessively leaning towards a moralizing stance."
+    },
+    {
+      "date": "2025-10-01",
+      "tag": "Sci-Fi",
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "summary": "Best book of the year. Rarely does a novel give me so much to think about power, gender, economics, and the craziness of the world we live in."
+    }
+  ]
+}
