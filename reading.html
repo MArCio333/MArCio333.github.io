@@ -22,21 +22,22 @@
   </header>
 
   <main>
-    <section class="page-hero container">
+    <section class="page-hero container reading-hero">
       <p class="eyebrow">Reading Journal · Books · Ideas</p>
-      <h1>A timeline of books and ideas that stayed with me.</h1>
-      <p class="lead">
+      <h1 class="reading-title">A timeline of books and ideas that stayed with me.</h1>
+      <p class="lead reading-lead">
         This page is a selective reading journal rather than a complete list. I use it to keep track
         of books that shaped how I think, what they clarified, and the questions they left open.
       </p>
-      <p class="personal-note">
+      <p class="personal-note reading-note">
         Less review, more record of thought.
       </p>
     </section>
 
     <section class="section container">
-      <div class="reading-intro">
-        <div class="highlight-box">
+      <div class="reading-top-grid">
+        <div class="highlight-box reading-intro-box">
+          <p class="card-type">Reading note</p>
           <h3>How I use this page</h3>
           <p>
             Each entry includes a short reflection and a few ideas that stayed with me. The goal is
@@ -44,6 +45,37 @@
             returning to.
           </p>
         </div>
+
+        <div class="highlight-box current-reading-box">
+          <p class="card-type">Currently reading</p>
+          <h3>Political Order and Political Decay</h3>
+          <p>
+            I am currently reading on institutions, state capacity, and long-term political development.
+          </p>
+        </div>
+      </div>
+
+      <div class="reading-meta-grid">
+        <article class="meta-card">
+          <p class="card-type">Books logged</p>
+          <h3>6</h3>
+        </article>
+        <article class="meta-card">
+          <p class="card-type">Current theme</p>
+          <h3>Polarization</h3>
+        </article>
+        <article class="meta-card">
+          <p class="card-type">Last updated</p>
+          <h3>April 2026</h3>
+        </article>
+      </div>
+
+      <div class="reading-filters">
+        <span class="filter-pill active">All</span>
+        <span class="filter-pill">Politics</span>
+        <span class="filter-pill">Psychology</span>
+        <span class="filter-pill">Religion</span>
+        <span class="filter-pill">Policy</span>
       </div>
 
       <div class="reading-timeline-alt">
@@ -53,14 +85,15 @@
         </div>
 
         <div class="timeline-row left">
-          <article class="timeline-card">
+          <article class="timeline-card month-april">
+            <p class="timeline-tag">Group Dynamics</p>
             <h3>Group Processes: Dynamics Within and Between Groups</h3>
             <p class="timeline-author">Rupert Brown &amp; Sam Pehrson</p>
-            <p>
+            <p class="timeline-summary">
               A strong framework for understanding polarization as a group process rather than
               just an individual-level disagreement.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Conflict tends to sharpen group boundaries.</li>
               <li>Identity often structures political positioning.</li>
               <li>Social change depends on both dissent and collective dynamics.</li>
@@ -69,14 +102,15 @@
         </div>
 
         <div class="timeline-row right">
-          <article class="timeline-card">
+          <article class="timeline-card month-april">
+            <p class="timeline-tag">Methods</p>
             <h3>Twenty-Five Years of Research Using Implicit Measures</h3>
             <p class="timeline-author">Bertram Gawronski, Jan De Houwer &amp; Jeffrey Sherman</p>
-            <p>
+            <p class="timeline-summary">
               Made me more careful about what implicit measures can actually tell us, and where
               interpretation becomes too ambitious.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Measures are not the same as the constructs they target.</li>
               <li>Methodological excitement can exceed theoretical clarity.</li>
               <li>Behavioral relevance is often conditional rather than direct.</li>
@@ -89,14 +123,15 @@
         </div>
 
         <div class="timeline-row left">
-          <article class="timeline-card">
+          <article class="timeline-card month-march">
+            <p class="timeline-tag">Religion</p>
             <h3>The Anthropology of Religion</h3>
             <p class="timeline-author">James Bielo</p>
-            <p>
+            <p class="timeline-summary">
               Helped shift my perspective from religion as belief alone to religion as practice,
               embodiment, and lived experience.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Definitions of religion are historically shaped, not neutral.</li>
               <li>Practice can matter more than formal doctrine.</li>
               <li>Anthropology is useful precisely because it pays attention to lived reality.</li>
@@ -105,14 +140,15 @@
         </div>
 
         <div class="timeline-row right">
-          <article class="timeline-card">
+          <article class="timeline-card month-march">
+            <p class="timeline-tag">Psychology</p>
             <h3>The Psychology of Influence</h3>
             <p class="timeline-author">Van der Pligt &amp; Vliek</p>
-            <p>
+            <p class="timeline-summary">
               Useful for thinking about how persuasion works through emotion and identity, not
               only through explicit argument.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Emotion is part of judgment, not a distortion of it.</li>
               <li>Influence often works affectively before it works rationally.</li>
               <li>Attitudes become stronger when they connect to identity.</li>
@@ -125,14 +161,15 @@
         </div>
 
         <div class="timeline-row left">
-          <article class="timeline-card">
+          <article class="timeline-card month-february">
+            <p class="timeline-tag">Foreign Policy</p>
             <h3>Foreign Policy and Cleavage Theory</h3>
             <p class="timeline-author">Research Notes</p>
-            <p>
+            <p class="timeline-summary">
               A return to the question that most interests me: how domestic divisions are translated
               into foreign policy preferences and party positioning.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Foreign policy is often less external than it first appears.</li>
               <li>Domestic cleavages can travel upward into national strategy.</li>
               <li>Party competition shapes what becomes “international”.</li>
@@ -141,14 +178,15 @@
         </div>
 
         <div class="timeline-row right">
-          <article class="timeline-card">
+          <article class="timeline-card month-february">
+            <p class="timeline-tag">Internet Governance</p>
             <h3>Notes on Internet Governance</h3>
             <p class="timeline-author">Policy Reading</p>
-            <p>
+            <p class="timeline-summary">
               Reading in this area keeps reinforcing how technical governance is never purely
               technical, and how infrastructure always has a political dimension.
             </p>
-            <ul>
+            <ul class="timeline-points">
               <li>Infrastructure governance is also institutional governance.</li>
               <li>Regulation reflects power as much as coordination.</li>
               <li>Digital governance sits between domestic and international politics.</li>
