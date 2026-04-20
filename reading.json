@@ -6,21 +6,21 @@
   },
   "books": [
     {
-      "date": "2026-03-10",
+      "date": "2026-01-01",
       "tag": "Memoir",
       "title": "Diaries of a Motorcycle",
       "author": "Ernesto Guevara de la Serna",
       "summary": "Fun and unexpected read."
     },
     {
-      "date": "2026-02-10",
+      "date": "2026-01-02",
       "tag": "Novel",
       "title": "Pedro Paramo",
       "author": "Juan Rulfo",
       "summary": "Mexico most emblematic book. Brings to an extreme the combination of simplicity and complexity while showing the soul of a nation."
     },
     {
-      "date": "2026-01-10",
+      "date": "2026-01-03",
       "tag": "Novel",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
