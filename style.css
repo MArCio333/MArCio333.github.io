@@ -89,3 +89,18 @@ body {
   flex-shrink: 0;
   opacity: 0.9;
 }
+.cv-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.85rem;
+    border: 1px solid currentColor;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.15s;
+  }
+  .cv-download-btn:hover { opacity: 1; }
